@@ -198,7 +198,19 @@ document.querySelector("#baiTap3").onclick = function () {
 // btap4
 /**\
  *  * input Tạo các input và button để người dùng nhập dữ liệu và xuất dữ liệu khi click vào nút button 
-  *
+  *taoj hàm thêm ô chọn khi mà khách hàng là doanh nghiệp 
+  tạo hàm tính hóa đơn  Có 2 mức giá tính tiền cáp (
+    1. Nhà dân:
+• Phí xử lý hóa đơn: 4.5$
+• Phí dịch vụ cơ bản: 20.5$
+• Thuê kênh cao cấp: 7.5$ / kênh
+2. Doanh nghiệp
+• Phí xử lý hóa đơn: 15$
+• Phí dịch vụ cơ bản: 75$ cho tổng 10 kết nối đầu, mỗi kết nối thêm 5$ / kết nối
+• Thuê kênh cao cấp: 50$ / kênh
+  )
+  dùng lệnh if else : khi khách hàng là nhà dân thì tổng tiền sẽ là Phí xử lý hóa đơn * Phí dịch vụ cơ bản + (số kênh cao cấp * 7.5)
+   nếu người dùng là doanh nghiệpp thì nếu có từ 10 trở xuống đầu kết nối thì phí dịch vụ sẽ là 75$ còn trên 10 đầu thì sẽ tăng 5 cho 1 đầu 
  * output :thông báo mã khách hàng và loại khách hàng và tổng tiền cần phải trả
  * 
  */
